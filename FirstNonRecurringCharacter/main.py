@@ -1,6 +1,6 @@
 inputString=input("Please enter the string:")
 
-charList=list()
+charList=[]
 for i,char in enumerate(inputString):
     if char in charList:
         charList.remove(char)
