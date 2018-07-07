@@ -7,7 +7,7 @@ count=[0]*256
 
 #Start and calculate the count of character of the string
 for char in inputString:
-    # ord: Cnvert the character to its ascii code, for example a->97
+    # ord: Convert the character to its ascii code, for example a->97
     count[ord(char)]+=1
 
 # Start finding the first non recurring character
